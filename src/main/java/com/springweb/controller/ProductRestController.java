@@ -17,15 +17,34 @@ public class ProductRestController {
 	
 	@Autowired
 	ProductRepository repository;
-	
+
+	// Finding all the products
 //	@GetMapping("/products/")
 	@RequestMapping(value="/products/", method = RequestMethod.GET)
 	public List<Product> getProducts(){
 		return repository.findAll();	
 	}
 	
+	// Finding product by Id 
 	@RequestMapping(value="/products/{id}", method = RequestMethod.GET)
 	public Product getProduct(@PathVariable("id") int id) {
 		return repository.findById(id).get();	
+	}
+	
+	//Creating a product
+	@RequestMapping(value="/products/", method = RequestMethod.POST)
+	public Product createProduct(Product product) {
+		return repository.save(product);
+	}
+	
+	//Updating the product
+	@RequestMapping(value="/products/",method=RequestMethod.PUT)
+	public Product updateProduct(Product product) {
+		return repository.save(product);
+	}
+	
+	@RequestMapping(value="/products/{id}", method = RequestMethod.DELETE)
+	public void deleteProduct(@PathVariable("id") int id) {
+		 repository.deleteById(id);
 	}
 }
