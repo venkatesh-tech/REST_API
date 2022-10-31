@@ -2,6 +2,8 @@ package com.springweb.controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,6 +20,8 @@ public class ProductRestController {
 	
 	@Autowired
 	ProductRepository repository;
+	
+	private static final Logger LOGGER = LoggerFactory.getLogger(ProductRestController.class);
 
 	// Finding all the products
 //	@GetMapping("/products/")
@@ -29,6 +33,7 @@ public class ProductRestController {
 	// Finding product by Id 
 	@RequestMapping(value="/products/{id}", method = RequestMethod.GET)
 	public Product getProduct(@PathVariable("id") int id) {
+		LOGGER.info("Finding product by id"+id);
 		return repository.findById(id).get();	
 	}
 	
