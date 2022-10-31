@@ -114,3 +114,95 @@
 2022-10-31 12:21:31.966  INFO 10608 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2022-10-31 12:21:32.986  INFO 10608 --- [main] com.springweb.ProductRestApiApplication  : Started ProductRestApiApplication in 5.38 seconds (JVM running for 6.287)
 2022-10-31 12:21:33.972  INFO 10608 --- [RMI TCP Connection(8)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-31 13:31:23.706  INFO 10608 --- [RMI TCP Connection(79)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-31 13:31:23.728  INFO 10608 --- [RMI TCP Connection(79)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-31 13:31:23.775  INFO 10608 --- [RMI TCP Connection(79)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-31 13:31:23.788  INFO 10608 --- [RMI TCP Connection(79)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-31 13:55:44.194  INFO 388 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 388 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
+2022-10-31 13:55:44.231  INFO 388 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-10-31 13:55:48.036  INFO 388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-31 13:55:48.037  INFO 388 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-31 13:55:48.319  INFO 388 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-10-31 13:55:49.004  INFO 388 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-31 13:55:49.129  INFO 388 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-10-31 13:55:49.546  INFO 388 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-31 13:55:50.206  INFO 388 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-31 13:55:53.177  INFO 388 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-31 13:55:53.466  INFO 388 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-31 13:55:58.460  INFO 388 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-31 13:56:03.502  INFO 388 --- [main] com.springweb.ProductRestApiApplication  : Started ProductRestApiApplication in 20.24 seconds (JVM running for 21.749)
+2022-10-31 13:56:06.106  INFO 388 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-31 13:57:30.196  INFO 388 --- [RMI TCP Connection(8)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-31 13:57:30.200  INFO 388 --- [RMI TCP Connection(8)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-31 13:57:30.223  INFO 388 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-31 13:57:30.335  INFO 388 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-31 13:57:43.640  INFO 12940 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 12940 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
+2022-10-31 13:57:43.645  INFO 12940 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-10-31 13:57:46.978  INFO 12940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-31 13:57:46.980  INFO 12940 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-31 13:57:47.256  INFO 12940 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-10-31 13:57:47.903  INFO 12940 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-31 13:57:48.008  INFO 12940 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-10-31 13:57:48.338  INFO 12940 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-31 13:57:48.536  INFO 12940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-31 13:57:49.125  INFO 12940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-31 13:57:49.186  INFO 12940 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-31 13:57:50.336  INFO 12940 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-31 13:57:52.551  INFO 12940 --- [main] com.springweb.ProductRestApiApplication  : Started ProductRestApiApplication in 9.813 seconds (JVM running for 11.353)
+2022-10-31 13:57:53.975  INFO 12940 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-31 14:00:01.423  INFO 12940 --- [RMI TCP Connection(5)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-31 14:00:01.428  INFO 12940 --- [RMI TCP Connection(5)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-31 14:00:01.450  INFO 12940 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-31 14:00:01.469  INFO 12940 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-31 14:00:07.074  INFO 12900 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 12900 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
+2022-10-31 14:00:07.079  INFO 12900 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-10-31 14:00:10.157  INFO 12900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-31 14:00:10.159  INFO 12900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-31 14:00:10.459  INFO 12900 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-10-31 14:00:11.028  INFO 12900 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-31 14:00:11.156  INFO 12900 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-10-31 14:00:11.447  INFO 12900 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-31 14:00:11.684  INFO 12900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-31 14:00:12.393  INFO 12900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-31 14:00:12.466  INFO 12900 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-31 14:00:13.617  INFO 12900 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-31 14:00:15.605  INFO 12900 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@58ebfbcb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68a7f77a, org.springframework.security.web.context.SecurityContextPersistenceFilter@be9bf2e, org.springframework.security.web.header.HeaderWriterFilter@11d0bff5, org.springframework.web.filter.CorsFilter@4960b819, org.springframework.security.web.csrf.CsrfFilter@70a91d72, org.springframework.security.web.authentication.logout.LogoutFilter@78e34499, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@108fd5d5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4198921f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1e987f59, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@22e253c7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@949f0d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b3eaf39, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@192aeae2, org.springframework.security.web.session.SessionManagementFilter@629dfb5a, org.springframework.security.web.access.ExceptionTranslationFilter@2bf0bb93, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4e3c0627]
+2022-10-31 14:00:15.845  INFO 12900 --- [main] com.springweb.ProductRestApiApplication  : Started ProductRestApiApplication in 9.72 seconds (JVM running for 11.018)
+2022-10-31 14:00:17.226  INFO 12900 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-31 14:04:05.806  INFO 12900 --- [RMI TCP Connection(9)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-31 14:04:05.808  INFO 12900 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-31 14:04:05.824  INFO 12900 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-31 14:04:05.836  INFO 12900 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-31 14:04:11.943  INFO 5588 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 5588 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
+2022-10-31 14:04:11.947  INFO 5588 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-10-31 14:04:14.474  INFO 5588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-31 14:04:14.476  INFO 5588 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-31 14:04:14.665  INFO 5588 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-10-31 14:04:15.201  INFO 5588 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-31 14:04:15.275  INFO 5588 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-10-31 14:04:15.536  INFO 5588 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-31 14:04:15.685  INFO 5588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-31 14:04:16.241  INFO 5588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-31 14:04:16.297  INFO 5588 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-31 14:04:17.189  INFO 5588 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-31 14:04:18.386  INFO 5588 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@22ba30b0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22bca04e, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c4e486e, org.springframework.security.web.header.HeaderWriterFilter@27aa7294, org.springframework.web.filter.CorsFilter@20608ef4, org.springframework.security.web.csrf.CsrfFilter@72ea6fcb, org.springframework.security.web.authentication.logout.LogoutFilter@820b78a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5cd6a827, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7a2ffb0b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@30a1b2ad, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3a574a3b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@598f1faf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@464abed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@436d2bb9, org.springframework.security.web.session.SessionManagementFilter@56d3af4d, org.springframework.security.web.access.ExceptionTranslationFilter@1cd2e348, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8d52313]
+2022-10-31 14:04:18.842  INFO 5588 --- [main] com.springweb.ProductRestApiApplication  : Started ProductRestApiApplication in 7.699 seconds (JVM running for 8.954)
+2022-10-31 14:04:20.141  INFO 5588 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-31 14:06:51.537  INFO 5588 --- [RMI TCP Connection(7)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-31 14:06:51.541  INFO 5588 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-31 14:06:51.562  INFO 5588 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-31 14:06:51.577  INFO 5588 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-31 14:07:00.374  INFO 8992 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 8992 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
+2022-10-31 14:07:00.385  INFO 8992 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-10-31 14:07:04.180  INFO 8992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-31 14:07:04.181  INFO 8992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-31 14:07:04.462  INFO 8992 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-10-31 14:07:05.136  INFO 8992 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-31 14:07:05.244  INFO 8992 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-10-31 14:07:05.661  INFO 8992 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-31 14:07:05.916  INFO 8992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-31 14:07:06.585  INFO 8992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-31 14:07:06.646  INFO 8992 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-31 14:07:07.826  INFO 8992 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-31 14:07:10.012  INFO 8992 --- [main] com.springweb.ProductRestApiApplication  : Started ProductRestApiApplication in 10.903 seconds (JVM running for 12.546)
+2022-10-31 14:07:11.189  INFO 8992 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
