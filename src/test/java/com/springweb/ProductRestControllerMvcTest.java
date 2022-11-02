@@ -2,9 +2,11 @@ package com.springweb;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 //import static org.springframework.test.web.client.match.MockRestRequestMatchers.content;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -55,8 +57,8 @@ class ProductRestControllerMvcTest {
 		ObjectWriter objectWriter = new ObjectMapper().writer().withDefaultPrettyPrinter();
 		
 		mockMvc.perform(get(PRODUCT_URL).contextPath(CONTEXT_URL)).andExpect(status().isOk())
-		.andExpect(content().json(objectWriter.writeValueAsString(products))); // step 4
-	
+		.andExpect(content().json(objectWriter.writeValueAsString(products))); // step 4 using ObjectWriter we can write objects into strings, into arrays.
+																			// takes json array and converts it to json list
 	}
 	
 	@Test
@@ -64,11 +66,32 @@ class ProductRestControllerMvcTest {
 		Product product = buildProduct();
 		when(repository.save(any())).thenReturn(product);
 		ObjectWriter objectWriter = new ObjectMapper().writer().withDefaultPrettyPrinter();
-		mockMvc.perform(post(PRODUCT_URL).contextPath(CONTEXT_URL)
-				.contentType(MediaType.APPLICATION_JSON)
-				.content(objectWriter.writeValueAsString(product))).andExpect(status().isOk())
-				.andExpect(content().json(objectWriter.writeValueAsString(product)));
 		
+		mockMvc.perform(post(PRODUCT_URL).contextPath(CONTEXT_URL)
+				.contentType(MediaType.APPLICATION_JSON) // ContentType is used because data is sent
+				.content(objectWriter.writeValueAsString(product))).andExpect(status().isOk()) // this objectWriter is used to send values
+				.andExpect(content().json(objectWriter.writeValueAsString(product))); // this objectWriter is used to print values out
+		
+	}
+	
+	@Test
+	void testUpdateProduct() throws JsonProcessingException, Exception {
+		Product product = buildProduct();
+		product.setPrice(1200);
+		when(repository.save(any())).thenReturn(product);
+		ObjectWriter objectWriter = new ObjectMapper().writer().withDefaultPrettyPrinter();
+		
+		mockMvc.perform(put(PRODUCT_URL).contextPath(CONTEXT_URL)
+				.contentType(MediaType.APPLICATION_JSON) // ContentType is used because data is sent
+				.content(objectWriter.writeValueAsString(product))).andExpect(status().isOk()) // this objectWriter is used to send values
+		.andExpect(content().json(objectWriter.writeValueAsString(product))); // this objectWriter is used to print values out
+		
+	}
+	
+	@Test
+	void testDeleteProduct() throws Exception {
+		doNothing().when(repository).deleteById(PRODUCT_ID);
+		mockMvc.perform(delete(PRODUCT_URL+PRODUCT_ID).contextPath(CONTEXT_URL)).andExpect(status().isOk());
 	}
 
 	private Product buildProduct() { // step 5
