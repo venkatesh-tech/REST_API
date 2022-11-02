@@ -1,9 +1,10 @@
 package com.springweb;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 //import static org.springframework.test.web.client.match.MockRestRequestMatchers.content;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -17,8 +18,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectWriter;
 import com.springweb.controller.ProductRestController;
 import com.springweb.entities.Product;
 import com.springweb.repos.ProductRepository;
@@ -28,6 +33,14 @@ import com.springweb.repos.ProductRepository;
 @ExtendWith(MockitoExtension.class)
 @WebMvcTest(value = ProductRestController.class,  excludeAutoConfiguration = {SecurityAutoConfiguration.class})
 class ProductRestControllerMvcTest {
+	
+	private static final int PRODUCT_ID = 1; // step 6 
+	private static final String PRODUCT_NAME = "one-plus";
+	private static final String PRODUCT_DESCRIPTION = "Its Awesome";
+	private static final int PRODUCT_PRICE = 1000;
+	private static final String PRODUCT_URL = "/productapi/products/";
+	private static final String CONTEXT_URL = "/productapi";
+
 	@Autowired       // step 1 
 	private MockMvc mockMvc;
 	
@@ -36,17 +49,35 @@ class ProductRestControllerMvcTest {
 	
 	@Test
 	void testFindAll() throws Exception { //step 3
-		Product product = new Product();
-		product.setId(1);
-		product.setName("one-plus");
-		product.setDescription("Its Awesome");
-		product.setPrice(1000);
+		Product product = buildProduct();
 		List<Product> products = Arrays.asList(product);
 		when(repository.findAll()).thenReturn(products);
+		ObjectWriter objectWriter = new ObjectMapper().writer().withDefaultPrettyPrinter();
 		
-		mockMvc.perform(get("/productapi/products/").contextPath("/productapi")).andExpect(status().isOk())
-		.andExpect(content().json("[{'id':1,'name':'one-plus','description':'Its Awesome','price':1000}])")); // step 4
+		mockMvc.perform(get(PRODUCT_URL).contextPath(CONTEXT_URL)).andExpect(status().isOk())
+		.andExpect(content().json(objectWriter.writeValueAsString(products))); // step 4
 	
+	}
+	
+	@Test
+	void testCreateProduct() throws JsonProcessingException, Exception {
+		Product product = buildProduct();
+		when(repository.save(any())).thenReturn(product);
+		ObjectWriter objectWriter = new ObjectMapper().writer().withDefaultPrettyPrinter();
+		mockMvc.perform(post(PRODUCT_URL).contextPath(CONTEXT_URL)
+				.contentType(MediaType.APPLICATION_JSON)
+				.content(objectWriter.writeValueAsString(product))).andExpect(status().isOk())
+				.andExpect(content().json(objectWriter.writeValueAsString(product)));
+		
+	}
+
+	private Product buildProduct() { // step 5
+		Product product = new Product();
+		product.setId(PRODUCT_ID);
+		product.setName(PRODUCT_NAME);
+		product.setDescription(PRODUCT_DESCRIPTION);
+		product.setPrice(PRODUCT_PRICE);
+		return product;
 	}
 
 }
