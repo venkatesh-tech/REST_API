@@ -18,7 +18,7 @@ class ProductRestApiApplicationTests {
 	 
 	
 	@Test
-	void testGetProduct() {
+	void testGetProduct() {  //These all are integration tests because they are using RestTemplate and going through all tyhe resources and classes. 
 		RestTemplate restTemplate = new RestTemplate();
 		Product product = restTemplate.getForObject(baseURL+"4", Product.class); //url and Response type
 		assertNotNull(product);
