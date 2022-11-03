@@ -1,619 +1,792 @@
-2022-11-02 12:02:58.920  INFO 16236 --- [main] c.s.ProductRestControllerMvcTest         : Starting ProductRestControllerMvcTest using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 16236 (started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
-2022-11-02 12:02:58.945  INFO 16236 --- [main] c.s.ProductRestControllerMvcTest         : No active profile set, falling back to 1 default profile: "default"
-2022-11-02 12:03:06.187  INFO 16236 --- [main] c.s.ProductRestControllerMvcTest         : Started ProductRestControllerMvcTest in 8.392 seconds (JVM running for 11.613)
-2022-11-02 12:04:13.661  INFO 10296 --- [main] c.s.ProductRestControllerMvcTest         : Starting ProductRestControllerMvcTest using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 10296 (started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
-2022-11-02 12:04:13.666  INFO 10296 --- [main] c.s.ProductRestControllerMvcTest         : No active profile set, falling back to 1 default profile: "default"
-2022-11-02 12:04:20.100  INFO 10296 --- [main] c.s.ProductRestControllerMvcTest         : Started ProductRestControllerMvcTest in 7.518 seconds (JVM running for 9.86)
-2022-11-02 12:05:59.219  INFO 6444 --- [main] c.s.ProductRestControllerMvcTest         : Starting ProductRestControllerMvcTest using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 6444 (started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
-2022-11-02 12:05:59.223  INFO 6444 --- [main] c.s.ProductRestControllerMvcTest         : No active profile set, falling back to 1 default profile: "default"
-2022-11-02 12:06:05.707  INFO 6444 --- [main] c.s.ProductRestControllerMvcTest         : Started ProductRestControllerMvcTest in 7.522 seconds (JVM running for 9.85)
-2022-11-02 12:06:47.262  INFO 17812 --- [main] c.s.ProductRestControllerMvcTest         : Starting ProductRestControllerMvcTest using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 17812 (started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
-2022-11-02 12:06:47.266  INFO 17812 --- [main] c.s.ProductRestControllerMvcTest         : No active profile set, falling back to 1 default profile: "default"
-2022-11-02 12:06:53.524  INFO 17812 --- [main] c.s.ProductRestControllerMvcTest         : Started ProductRestControllerMvcTest in 7.288 seconds (JVM running for 9.708)
-2022-11-02 12:11:24.012  INFO 8168 --- [main] c.s.ProductRestControllerMvcTest         : Starting ProductRestControllerMvcTest using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 8168 (started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
-2022-11-02 12:11:24.027  INFO 8168 --- [main] c.s.ProductRestControllerMvcTest         : No active profile set, falling back to 1 default profile: "default"
-2022-11-02 12:11:29.031  INFO 8168 --- [main] c.s.ProductRestControllerMvcTest         : Started ProductRestControllerMvcTest in 6.038 seconds (JVM running for 8.422)
-2022-11-02 12:31:16.632  INFO 5508 --- [main] c.s.ProductRestControllerMvcTest         : Starting ProductRestControllerMvcTest using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 5508 (started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
-2022-11-02 12:31:16.636  INFO 5508 --- [main] c.s.ProductRestControllerMvcTest         : No active profile set, falling back to 1 default profile: "default"
-2022-11-02 12:31:21.662  INFO 5508 --- [main] c.s.ProductRestControllerMvcTest         : Started ProductRestControllerMvcTest in 6.116 seconds (JVM running for 8.506)
-2022-11-02 12:31:41.580  INFO 16620 --- [main] c.s.ProductRestControllerMvcTest         : Starting ProductRestControllerMvcTest using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 16620 (started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
-2022-11-02 12:31:41.583  INFO 16620 --- [main] c.s.ProductRestControllerMvcTest         : No active profile set, falling back to 1 default profile: "default"
-2022-11-02 12:31:46.505  INFO 16620 --- [main] c.s.ProductRestControllerMvcTest         : Started ProductRestControllerMvcTest in 5.907 seconds (JVM running for 8.269)
-2022-11-02 12:46:46.644  INFO 18168 --- [main] c.s.ProductRestControllerMvcTest         : Starting ProductRestControllerMvcTest using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 18168 (started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
-2022-11-02 12:46:46.649  INFO 18168 --- [main] c.s.ProductRestControllerMvcTest         : No active profile set, falling back to 1 default profile: "default"
-2022-11-02 12:46:51.652  INFO 18168 --- [main] c.s.ProductRestControllerMvcTest         : Started ProductRestControllerMvcTest in 6.081 seconds (JVM running for 8.457)
-2022-11-02 14:13:28.703  INFO 16644 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 16644 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
-2022-11-02 14:13:28.715  INFO 16644 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
-2022-11-02 14:13:31.670  INFO 16644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-02 14:13:31.671  INFO 16644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-02 14:13:31.908  INFO 16644 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
-2022-11-02 14:13:32.591  WARN 16644 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+2022-11-03 18:46:47.406  INFO 13704 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 13704 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
+2022-11-03 18:46:47.426  INFO 13704 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 18:46:50.515  INFO 13704 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 18:46:50.516  INFO 13704 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-03 18:46:50.713  INFO 13704 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-11-03 18:46:51.225  WARN 13704 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
  --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
-2022-11-02 14:13:32.973  INFO 16644 --- [main] com.hazelcast.system.logo                : [192.168.1.9]:5701 [dev] [5.1.4] 
+2022-11-03 18:46:51.685  INFO 13704 --- [main] com.hazelcast.system.logo                : [192.168.1.16]:5701 [dev] [5.1.4] 
 	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
 	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
 	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
 	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
 	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
-2022-11-02 14:13:32.973  INFO 16644 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
-2022-11-02 14:13:32.974  INFO 16644 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] Hazelcast Platform 5.1.4 (20221011 - eba69db) starting at [192.168.1.9]:5701
-2022-11-02 14:13:32.974  INFO 16644 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] Cluster name: dev
-2022-11-02 14:13:32.974  INFO 16644 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
+2022-11-03 18:46:51.687  INFO 13704 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
+2022-11-03 18:46:51.688  INFO 13704 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Hazelcast Platform 5.1.4 (20221011 - eba69db) starting at [192.168.1.16]:5701
+2022-11-03 18:46:51.689  INFO 13704 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Cluster name: dev
+2022-11-03 18:46:51.689  INFO 13704 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
 To enable integrity checker do one of the following: 
   - Change member config using Java API: config.setIntegrityCheckerEnabled(true);
   - Change XML/YAML configuration property: Set hazelcast.integrity-checker.enabled to true
   - Add system property: -Dhz.integritychecker.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
   - Add environment variable: HZ_INTEGRITYCHECKER_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
-2022-11-02 14:13:32.978  INFO 16644 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] The Jet engine is disabled.
+2022-11-03 18:46:51.708  INFO 13704 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] The Jet engine is disabled.
 To enable the Jet engine on the members, do one of the following:
   - Change member config using Java API: config.getJetConfig().setEnabled(true)
   - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
   - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
   - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
-2022-11-02 14:13:33.785  INFO 16644 --- [main] com.hazelcast.system.security            : [192.168.1.9]:5701 [dev] [5.1.4] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
-2022-11-02 14:13:33.939  INFO 16644 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.9]:5701 [dev] [5.1.4] Using Multicast discovery
-2022-11-02 14:13:33.945  WARN 16644 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.9]:5701 [dev] [5.1.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
-2022-11-02 14:13:34.223  INFO 16644 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.9]:5701 [dev] [5.1.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
-2022-11-02 14:13:34.230  INFO 16644 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.9]:5701 [dev] [5.1.4] [192.168.1.9]:5701 is STARTING
-2022-11-02 14:13:37.872  INFO 16644 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.9]:5701 [dev] [5.1.4] 
+2022-11-03 18:46:52.510  INFO 13704 --- [main] com.hazelcast.system.security            : [192.168.1.16]:5701 [dev] [5.1.4] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2022-11-03 18:46:52.645  INFO 13704 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Using Multicast discovery
+2022-11-03 18:46:52.651  WARN 13704 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.16]:5701 [dev] [5.1.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-11-03 18:46:52.944  INFO 13704 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.16]:5701 [dev] [5.1.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-11-03 18:46:52.953  INFO 13704 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTING
+2022-11-03 18:46:55.772  INFO 13704 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.16]:5701 [dev] [5.1.4] 
 
 Members {size:1, ver:1} [
-	Member [192.168.1.9]:5701 - 41d9b299-5692-4243-a99d-4e125a16d47c this
+	Member [192.168.1.16]:5701 - 490dd074-e283-4532-b5cd-b5274afbd283 this
 ]
 
-2022-11-02 14:13:37.956  INFO 16644 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.9]:5701 [dev] [5.1.4] [192.168.1.9]:5701 is STARTED
-2022-11-02 14:13:38.470  INFO 16644 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-11-02 14:13:38.628  INFO 16644 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
-2022-11-02 14:13:44.326  INFO 16644 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-11-02 14:13:45.367  INFO 16644 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-11-02 14:13:47.415  INFO 16644 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-11-02 14:13:47.690  INFO 16644 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-11-02 14:13:50.089  INFO 16644 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-11-02 14:13:52.653  INFO 16644 --- [main] com.springweb.ProductRestApiApplication  : Started ProductRestApiApplication in 24.481 seconds (JVM running for 26.58)
-2022-11-02 14:13:52.937  INFO 16644 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-02 14:17:26.435  INFO 16644 --- [RMI TCP Connection(8)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-11-02 14:17:26.551  INFO 16644 --- [RMI TCP Connection(8)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2022-11-02 14:17:26.791  INFO 16644 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-11-02 14:17:26.806  INFO 16644 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-11-02 14:17:46.790  INFO 4056 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 4056 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
-2022-11-02 14:17:46.794  INFO 4056 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
-2022-11-02 14:17:49.241  INFO 4056 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-02 14:17:49.242  INFO 4056 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-02 14:17:49.498  INFO 4056 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
-2022-11-02 14:17:50.062  WARN 4056 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+2022-11-03 18:46:55.798  INFO 13704 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTED
+2022-11-03 18:46:56.190  INFO 13704 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 18:46:56.365  INFO 13704 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-03 18:46:56.738  INFO 13704 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 18:46:56.980  INFO 13704 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-03 18:46:59.087  INFO 13704 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-03 18:46:59.136  INFO 13704 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-03 18:47:01.103  INFO 13704 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 18:47:02.514  INFO 13704 --- [main] com.springweb.ProductRestApiApplication  : Started ProductRestApiApplication in 16.014 seconds (JVM running for 18.01)
+2022-11-03 18:47:04.426  INFO 13704 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-03 18:51:00.222  INFO 13704 --- [RMI TCP Connection(7)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-03 18:51:00.235  INFO 13704 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-03 18:51:00.323  INFO 13704 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-03 18:51:00.356  INFO 13704 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-03 18:51:09.598  INFO 4976 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 4976 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
+2022-11-03 18:51:09.601  INFO 4976 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 18:51:11.780  INFO 4976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 18:51:11.780  INFO 4976 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-03 18:51:11.957  INFO 4976 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-11-03 18:51:12.351  WARN 4976 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
  --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
-2022-11-02 14:17:50.523  INFO 4056 --- [main] com.hazelcast.system.logo                : [192.168.1.9]:5701 [dev] [5.1.4] 
+2022-11-03 18:51:12.731  INFO 4976 --- [main] com.hazelcast.system.logo                : [192.168.1.16]:5701 [dev] [5.1.4] 
 	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
 	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
 	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
 	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
 	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
-2022-11-02 14:17:50.523  INFO 4056 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
-2022-11-02 14:17:50.524  INFO 4056 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] Hazelcast Platform 5.1.4 (20221011 - eba69db) starting at [192.168.1.9]:5701
-2022-11-02 14:17:50.524  INFO 4056 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] Cluster name: dev
-2022-11-02 14:17:50.524  INFO 4056 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
+2022-11-03 18:51:12.732  INFO 4976 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
+2022-11-03 18:51:12.732  INFO 4976 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Hazelcast Platform 5.1.4 (20221011 - eba69db) starting at [192.168.1.16]:5701
+2022-11-03 18:51:12.732  INFO 4976 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Cluster name: dev
+2022-11-03 18:51:12.732  INFO 4976 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
 To enable integrity checker do one of the following: 
   - Change member config using Java API: config.setIntegrityCheckerEnabled(true);
   - Change XML/YAML configuration property: Set hazelcast.integrity-checker.enabled to true
   - Add system property: -Dhz.integritychecker.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
   - Add environment variable: HZ_INTEGRITYCHECKER_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
-2022-11-02 14:17:50.529  INFO 4056 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] The Jet engine is disabled.
+2022-11-03 18:51:12.746  INFO 4976 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] The Jet engine is disabled.
 To enable the Jet engine on the members, do one of the following:
   - Change member config using Java API: config.getJetConfig().setEnabled(true)
   - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
   - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
   - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
-2022-11-02 14:17:51.990  INFO 4056 --- [main] com.hazelcast.system.security            : [192.168.1.9]:5701 [dev] [5.1.4] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
-2022-11-02 14:17:52.228  INFO 4056 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.9]:5701 [dev] [5.1.4] Using Multicast discovery
-2022-11-02 14:17:52.235  WARN 4056 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.9]:5701 [dev] [5.1.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
-2022-11-02 14:17:52.865  INFO 4056 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.9]:5701 [dev] [5.1.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
-2022-11-02 14:17:52.874  INFO 4056 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.9]:5701 [dev] [5.1.4] [192.168.1.9]:5701 is STARTING
-2022-11-02 14:17:56.355  INFO 4056 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.9]:5701 [dev] [5.1.4] 
+2022-11-03 18:51:13.473  INFO 4976 --- [main] com.hazelcast.system.security            : [192.168.1.16]:5701 [dev] [5.1.4] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2022-11-03 18:51:13.637  INFO 4976 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Using Multicast discovery
+2022-11-03 18:51:13.643  WARN 4976 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.16]:5701 [dev] [5.1.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-11-03 18:51:14.033  INFO 4976 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.16]:5701 [dev] [5.1.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-11-03 18:51:14.041  INFO 4976 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTING
+2022-11-03 18:51:16.908  INFO 4976 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.16]:5701 [dev] [5.1.4] 
 
 Members {size:1, ver:1} [
-	Member [192.168.1.9]:5701 - 0fea9d9d-7fa4-47db-835d-2cdb444fd135 this
+	Member [192.168.1.16]:5701 - 5ee44f5a-605b-445b-a7fa-f94ccf1f4cbf this
 ]
 
-2022-11-02 14:17:56.377  INFO 4056 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.9]:5701 [dev] [5.1.4] [192.168.1.9]:5701 is STARTED
-2022-11-02 14:17:56.607  INFO 4056 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-11-02 14:17:56.732  INFO 4056 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
-2022-11-02 14:17:57.097  INFO 4056 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-11-02 14:17:57.206  INFO 4056 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-11-02 14:17:57.638  INFO 4056 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-11-02 14:17:57.692  INFO 4056 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-11-02 14:17:58.629  INFO 4056 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-11-02 14:17:59.908  INFO 4056 --- [main] com.springweb.ProductRestApiApplication  : Started ProductRestApiApplication in 13.592 seconds (JVM running for 16.15)
-2022-11-02 14:18:04.471  INFO 4056 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-02 14:18:56.816  INFO 4056 --- [RMI TCP Connection(4)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-11-02 14:18:56.818  INFO 4056 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2022-11-02 14:18:56.861  INFO 4056 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-11-02 14:18:56.870  INFO 4056 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-11-02 14:19:27.370  INFO 4748 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 4748 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
-2022-11-02 14:19:27.373  INFO 4748 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
-2022-11-02 14:19:29.117  INFO 4748 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-02 14:19:29.118  INFO 4748 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-02 14:19:29.271  INFO 4748 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
-2022-11-02 14:19:29.573  WARN 4748 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+2022-11-03 18:51:16.932  INFO 4976 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTED
+2022-11-03 18:51:17.124  INFO 4976 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 18:51:17.249  INFO 4976 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-03 18:51:17.671  INFO 4976 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 18:51:17.824  INFO 4976 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-03 18:51:18.231  INFO 4976 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-03 18:51:18.270  INFO 4976 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-03 18:51:19.260  INFO 4976 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 18:51:20.278  INFO 4976 --- [main] com.springweb.ProductRestApiApplication  : Started ProductRestApiApplication in 11.162 seconds (JVM running for 12.074)
+2022-11-03 18:51:21.179  INFO 4976 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-03 18:54:15.798  INFO 4976 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-03 18:54:15.800  INFO 4976 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-03 18:54:15.837  INFO 4976 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-03 18:54:15.845  INFO 4976 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-03 18:54:25.735  INFO 19220 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 19220 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
+2022-11-03 18:54:25.738  INFO 19220 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 18:54:27.423  INFO 19220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 18:54:27.424  INFO 19220 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-03 18:54:27.594  INFO 19220 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-11-03 18:54:27.904  WARN 19220 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
  --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
-2022-11-02 14:19:29.884  INFO 4748 --- [main] com.hazelcast.system.logo                : [192.168.1.9]:5701 [dev] [5.1.4] 
+2022-11-03 18:54:28.190  INFO 19220 --- [main] com.hazelcast.system.logo                : [192.168.1.16]:5701 [dev] [5.1.4] 
 	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
 	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
 	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
 	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
 	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
-2022-11-02 14:19:29.884  INFO 4748 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
-2022-11-02 14:19:29.885  INFO 4748 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] Hazelcast Platform 5.1.4 (20221011 - eba69db) starting at [192.168.1.9]:5701
-2022-11-02 14:19:29.885  INFO 4748 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] Cluster name: dev
-2022-11-02 14:19:29.885  INFO 4748 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
+2022-11-03 18:54:28.190  INFO 19220 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
+2022-11-03 18:54:28.191  INFO 19220 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Hazelcast Platform 5.1.4 (20221011 - eba69db) starting at [192.168.1.16]:5701
+2022-11-03 18:54:28.191  INFO 19220 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Cluster name: dev
+2022-11-03 18:54:28.191  INFO 19220 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
 To enable integrity checker do one of the following: 
   - Change member config using Java API: config.setIntegrityCheckerEnabled(true);
   - Change XML/YAML configuration property: Set hazelcast.integrity-checker.enabled to true
   - Add system property: -Dhz.integritychecker.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
   - Add environment variable: HZ_INTEGRITYCHECKER_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
-2022-11-02 14:19:29.888  INFO 4748 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] The Jet engine is disabled.
+2022-11-03 18:54:28.194  INFO 19220 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] The Jet engine is disabled.
 To enable the Jet engine on the members, do one of the following:
   - Change member config using Java API: config.getJetConfig().setEnabled(true)
   - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
   - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
   - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
-2022-11-02 14:19:30.502  INFO 4748 --- [main] com.hazelcast.system.security            : [192.168.1.9]:5701 [dev] [5.1.4] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
-2022-11-02 14:19:30.617  INFO 4748 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.9]:5701 [dev] [5.1.4] Using Multicast discovery
-2022-11-02 14:19:30.623  WARN 4748 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.9]:5701 [dev] [5.1.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
-2022-11-02 14:19:30.872  INFO 4748 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.9]:5701 [dev] [5.1.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
-2022-11-02 14:19:30.879  INFO 4748 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.9]:5701 [dev] [5.1.4] [192.168.1.9]:5701 is STARTING
-2022-11-02 14:19:33.853  INFO 4748 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.9]:5701 [dev] [5.1.4] 
+2022-11-03 18:54:28.799  INFO 19220 --- [main] com.hazelcast.system.security            : [192.168.1.16]:5701 [dev] [5.1.4] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2022-11-03 18:54:28.915  INFO 19220 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Using Multicast discovery
+2022-11-03 18:54:28.920  WARN 19220 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.16]:5701 [dev] [5.1.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-11-03 18:54:29.179  INFO 19220 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.16]:5701 [dev] [5.1.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-11-03 18:54:29.185  INFO 19220 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTING
+2022-11-03 18:54:32.459  INFO 19220 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.16]:5701 [dev] [5.1.4] 
 
 Members {size:1, ver:1} [
-	Member [192.168.1.9]:5701 - 697c061a-a4c3-4107-bde2-1e7749e42e38 this
+	Member [192.168.1.16]:5701 - e5d171a2-b31e-4849-8b13-d108c59618f0 this
 ]
 
-2022-11-02 14:19:33.875  INFO 4748 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.9]:5701 [dev] [5.1.4] [192.168.1.9]:5701 is STARTED
-2022-11-02 14:19:34.016  INFO 4748 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-11-02 14:19:34.076  INFO 4748 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
-2022-11-02 14:19:34.279  INFO 4748 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-11-02 14:19:34.408  INFO 4748 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-11-02 14:19:34.796  INFO 4748 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-11-02 14:19:34.835  INFO 4748 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-11-02 14:19:35.824  INFO 4748 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-11-02 14:19:36.932  INFO 4748 --- [main] com.springweb.ProductRestApiApplication  : Started ProductRestApiApplication in 10.03 seconds (JVM running for 10.843)
-2022-11-02 14:19:38.141  INFO 4748 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-02 14:19:53.365 ERROR 4748 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/productapi] threw exception [Request processing failed; nested exception is org.springframework.orm.jpa.JpaSystemException: The database returned no natively generated identity value; nested exception is org.hibernate.HibernateException: The database returned no natively generated identity value] with root cause
-
-org.hibernate.HibernateException: The database returned no natively generated identity value
-	at org.hibernate.id.IdentifierGeneratorHelper.getGeneratedIdentity(IdentifierGeneratorHelper.java:75) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:62) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:43) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3279) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3885) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:84) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:330) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:287) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:193) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:123) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:756) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:742) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) ~[spring-orm-5.3.23.jar:5.3.23]
-	at jdk.proxy2/jdk.proxy2.$Proxy116.persist(Unknown Source) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-5.3.23.jar:5.3.23]
-	at jdk.proxy2/jdk.proxy2.$Proxy116.persist(Unknown Source) ~[na:na]
-	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:666) ~[spring-data-jpa-2.7.5.jar:2.7.5]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:530) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:286) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:640) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.23.jar:5.3.23]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.23.jar:5.3.23]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174) ~[spring-data-jpa-2.7.5.jar:2.7.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.23.jar:5.3.23]
-	at jdk.proxy2/jdk.proxy2.$Proxy118.save(Unknown Source) ~[na:na]
-	at com.springweb.controller.ProductRestController.createProduct(ProductRestController.java:48) ~[classes/:na]
-	at com.springweb.controller.ProductRestController$$FastClassBySpringCGLIB$$40a861e1.invoke(<generated>) ~[classes/:na]
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704) ~[spring-aop-5.3.23.jar:5.3.23]
-	at com.springweb.controller.ProductRestController$$EnhancerBySpringCGLIB$$947759b3.createProduct(<generated>) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.7.5.jar:2.7.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2022-11-02 14:20:29.831 ERROR 4748 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/productapi] threw exception [Request processing failed; nested exception is org.springframework.orm.jpa.JpaSystemException: The database returned no natively generated identity value; nested exception is org.hibernate.HibernateException: The database returned no natively generated identity value] with root cause
-
-org.hibernate.HibernateException: The database returned no natively generated identity value
-	at org.hibernate.id.IdentifierGeneratorHelper.getGeneratedIdentity(IdentifierGeneratorHelper.java:75) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:62) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:43) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3279) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3885) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:84) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:330) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:287) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:193) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:123) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:756) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:742) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) ~[spring-orm-5.3.23.jar:5.3.23]
-	at jdk.proxy2/jdk.proxy2.$Proxy116.persist(Unknown Source) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-5.3.23.jar:5.3.23]
-	at jdk.proxy2/jdk.proxy2.$Proxy116.persist(Unknown Source) ~[na:na]
-	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:666) ~[spring-data-jpa-2.7.5.jar:2.7.5]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:530) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:286) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:640) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.23.jar:5.3.23]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.23.jar:5.3.23]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174) ~[spring-data-jpa-2.7.5.jar:2.7.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.23.jar:5.3.23]
-	at jdk.proxy2/jdk.proxy2.$Proxy118.save(Unknown Source) ~[na:na]
-	at com.springweb.controller.ProductRestController.createProduct(ProductRestController.java:48) ~[classes/:na]
-	at com.springweb.controller.ProductRestController$$FastClassBySpringCGLIB$$40a861e1.invoke(<generated>) ~[classes/:na]
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704) ~[spring-aop-5.3.23.jar:5.3.23]
-	at com.springweb.controller.ProductRestController$$EnhancerBySpringCGLIB$$947759b3.createProduct(<generated>) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.7.5.jar:2.7.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2022-11-02 14:21:28.193 ERROR 4748 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/productapi] threw exception [Request processing failed; nested exception is org.springframework.orm.jpa.JpaSystemException: The database returned no natively generated identity value; nested exception is org.hibernate.HibernateException: The database returned no natively generated identity value] with root cause
-
-org.hibernate.HibernateException: The database returned no natively generated identity value
-	at org.hibernate.id.IdentifierGeneratorHelper.getGeneratedIdentity(IdentifierGeneratorHelper.java:75) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:62) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:43) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3279) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3885) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:84) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:330) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:287) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:193) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:123) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:756) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:742) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) ~[spring-orm-5.3.23.jar:5.3.23]
-	at jdk.proxy2/jdk.proxy2.$Proxy116.persist(Unknown Source) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-5.3.23.jar:5.3.23]
-	at jdk.proxy2/jdk.proxy2.$Proxy116.persist(Unknown Source) ~[na:na]
-	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:666) ~[spring-data-jpa-2.7.5.jar:2.7.5]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:530) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:286) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:640) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.5.jar:2.7.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.23.jar:5.3.23]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.23.jar:5.3.23]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174) ~[spring-data-jpa-2.7.5.jar:2.7.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.23.jar:5.3.23]
-	at jdk.proxy2/jdk.proxy2.$Proxy118.save(Unknown Source) ~[na:na]
-	at com.springweb.controller.ProductRestController.createProduct(ProductRestController.java:48) ~[classes/:na]
-	at com.springweb.controller.ProductRestController$$FastClassBySpringCGLIB$$40a861e1.invoke(<generated>) ~[classes/:na]
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85) ~[spring-aop-5.3.23.jar:5.3.23]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704) ~[spring-aop-5.3.23.jar:5.3.23]
-	at com.springweb.controller.ProductRestController$$EnhancerBySpringCGLIB$$947759b3.createProduct(<generated>) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.7.5.jar:2.7.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2022-11-02 14:25:22.734  INFO 4748 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-11-02 14:25:22.736  INFO 4748 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2022-11-02 14:25:22.768  INFO 4748 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-11-02 14:25:22.798  INFO 4748 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-11-02 14:25:43.409  INFO 9228 --- [main] c.s.ProductRestApiApplicationTests       : Starting ProductRestApiApplicationTests using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 9228 (started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
-2022-11-02 14:25:43.412  INFO 9228 --- [main] c.s.ProductRestApiApplicationTests       : No active profile set, falling back to 1 default profile: "default"
-2022-11-02 14:25:45.761  WARN 9228 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+2022-11-03 18:54:32.480  INFO 19220 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTED
+2022-11-03 18:54:32.620  INFO 19220 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 18:54:32.682  INFO 19220 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-03 18:54:32.863  INFO 19220 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 18:54:32.973  INFO 19220 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-03 18:54:33.358  INFO 19220 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-03 18:54:33.393  INFO 19220 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-03 18:54:34.169  INFO 19220 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 18:54:35.218  INFO 19220 --- [main] com.springweb.ProductRestApiApplication  : Started ProductRestApiApplication in 9.93 seconds (JVM running for 10.788)
+2022-11-03 18:54:36.144  INFO 19220 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-03 18:56:36.879  INFO 19220 --- [RMI TCP Connection(5)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-03 18:56:36.900  INFO 19220 --- [RMI TCP Connection(5)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-03 18:56:36.981  INFO 19220 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-03 18:56:36.989  INFO 19220 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-03 18:56:45.445  INFO 21676 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 21676 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
+2022-11-03 18:56:45.448  INFO 21676 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 18:56:47.434  INFO 21676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 18:56:47.435  INFO 21676 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-03 18:56:47.599  INFO 21676 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-11-03 18:56:47.991  WARN 21676 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
  --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
-2022-11-02 14:25:46.056  INFO 9228 --- [main] com.hazelcast.system.logo                : [192.168.1.9]:5701 [dev] [5.1.4] 
+2022-11-03 18:56:48.341  INFO 21676 --- [main] com.hazelcast.system.logo                : [192.168.1.16]:5701 [dev] [5.1.4] 
 	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
 	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
 	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
 	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
 	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
-2022-11-02 14:25:46.057  INFO 9228 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
-2022-11-02 14:25:46.057  INFO 9228 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] Hazelcast Platform 5.1.4 (20221011 - eba69db) starting at [192.168.1.9]:5701
-2022-11-02 14:25:46.057  INFO 9228 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] Cluster name: dev
-2022-11-02 14:25:46.058  INFO 9228 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
+2022-11-03 18:56:48.341  INFO 21676 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
+2022-11-03 18:56:48.342  INFO 21676 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Hazelcast Platform 5.1.4 (20221011 - eba69db) starting at [192.168.1.16]:5701
+2022-11-03 18:56:48.342  INFO 21676 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Cluster name: dev
+2022-11-03 18:56:48.342  INFO 21676 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
 To enable integrity checker do one of the following: 
   - Change member config using Java API: config.setIntegrityCheckerEnabled(true);
   - Change XML/YAML configuration property: Set hazelcast.integrity-checker.enabled to true
   - Add system property: -Dhz.integritychecker.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
   - Add environment variable: HZ_INTEGRITYCHECKER_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
-2022-11-02 14:25:46.061  INFO 9228 --- [main] com.hazelcast.system                     : [192.168.1.9]:5701 [dev] [5.1.4] The Jet engine is disabled.
+2022-11-03 18:56:48.362  INFO 21676 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] The Jet engine is disabled.
 To enable the Jet engine on the members, do one of the following:
   - Change member config using Java API: config.getJetConfig().setEnabled(true)
   - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
   - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
   - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
-2022-11-02 14:25:46.835  INFO 9228 --- [main] com.hazelcast.system.security            : [192.168.1.9]:5701 [dev] [5.1.4] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
-2022-11-02 14:25:46.964  INFO 9228 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.9]:5701 [dev] [5.1.4] Using Multicast discovery
-2022-11-02 14:25:46.970  WARN 9228 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.9]:5701 [dev] [5.1.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
-2022-11-02 14:25:47.334  INFO 9228 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.9]:5701 [dev] [5.1.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
-2022-11-02 14:25:47.344  INFO 9228 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.9]:5701 [dev] [5.1.4] [192.168.1.9]:5701 is STARTING
-2022-11-02 14:25:50.940  INFO 9228 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.9]:5701 [dev] [5.1.4] 
+2022-11-03 18:56:49.058  INFO 21676 --- [main] com.hazelcast.system.security            : [192.168.1.16]:5701 [dev] [5.1.4] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2022-11-03 18:56:49.175  INFO 21676 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Using Multicast discovery
+2022-11-03 18:56:49.180  WARN 21676 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.16]:5701 [dev] [5.1.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-11-03 18:56:49.441  INFO 21676 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.16]:5701 [dev] [5.1.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-11-03 18:56:49.450  INFO 21676 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTING
+2022-11-03 18:56:52.167  INFO 21676 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.16]:5701 [dev] [5.1.4] 
 
 Members {size:1, ver:1} [
-	Member [192.168.1.9]:5701 - a5934738-8654-43c1-bf1c-34905beb124f this
+	Member [192.168.1.16]:5701 - 8c796b94-2457-40ec-94f0-043a96a7377c this
 ]
 
-2022-11-02 14:25:50.960  INFO 9228 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.9]:5701 [dev] [5.1.4] [192.168.1.9]:5701 is STARTED
-2022-11-02 14:25:51.407  INFO 9228 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-11-02 14:25:51.503  INFO 9228 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
-2022-11-02 14:25:51.731  INFO 9228 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-11-02 14:25:51.903  INFO 9228 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-11-02 14:25:52.383  INFO 9228 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-11-02 14:25:52.421  INFO 9228 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-11-02 14:26:04.070  INFO 13520 --- [main] c.s.ProductRestControllerMvcTest         : Starting ProductRestControllerMvcTest using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 13520 (started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
-2022-11-02 14:26:04.071  INFO 13520 --- [main] c.s.ProductRestControllerMvcTest         : No active profile set, falling back to 1 default profile: "default"
-2022-11-02 14:26:06.957  INFO 13520 --- [main] c.s.ProductRestControllerMvcTest         : Started ProductRestControllerMvcTest in 3.473 seconds (JVM running for 4.855)
-2022-11-02 14:28:19.454  INFO 18452 --- [main] c.s.ProductRestControllerMvcTest         : Starting ProductRestControllerMvcTest using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 18452 (started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
-2022-11-02 14:28:19.456  INFO 18452 --- [main] c.s.ProductRestControllerMvcTest         : No active profile set, falling back to 1 default profile: "default"
-2022-11-02 14:28:22.459  INFO 18452 --- [main] c.s.ProductRestControllerMvcTest         : Started ProductRestControllerMvcTest in 3.646 seconds (JVM running for 5.108)
-2022-11-02 15:09:21.950  INFO 6768 --- [main] c.s.ProductRestControllerMvcTest         : Starting ProductRestControllerMvcTest using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 6768 (started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
-2022-11-02 15:09:21.998  INFO 6768 --- [main] c.s.ProductRestControllerMvcTest         : No active profile set, falling back to 1 default profile: "default"
-2022-11-02 15:09:26.869  INFO 6768 --- [main] c.s.ProductRestControllerMvcTest         : Started ProductRestControllerMvcTest in 5.549 seconds (JVM running for 7.764)
-2022-11-02 15:21:31.938  INFO 14552 --- [main] c.s.ProductRestControllerMvcTest         : Starting ProductRestControllerMvcTest using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 14552 (started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
-2022-11-02 15:21:31.956  INFO 14552 --- [main] c.s.ProductRestControllerMvcTest         : No active profile set, falling back to 1 default profile: "default"
-2022-11-02 15:21:37.825  INFO 14552 --- [main] c.s.ProductRestControllerMvcTest         : Started ProductRestControllerMvcTest in 7.125 seconds (JVM running for 9.862)
-2022-11-02 15:22:12.914  INFO 13464 --- [main] c.s.ProductRestControllerMvcTest         : Starting ProductRestControllerMvcTest using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 13464 (started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
-2022-11-02 15:22:12.918  INFO 13464 --- [main] c.s.ProductRestControllerMvcTest         : No active profile set, falling back to 1 default profile: "default"
-2022-11-02 15:22:17.961  INFO 13464 --- [main] c.s.ProductRestControllerMvcTest         : Started ProductRestControllerMvcTest in 6.137 seconds (JVM running for 8.795)
+2022-11-03 18:56:52.185  INFO 21676 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTED
+2022-11-03 18:56:52.384  INFO 21676 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 18:56:52.507  INFO 21676 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-03 18:56:52.877  INFO 21676 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 18:56:53.019  INFO 21676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-03 18:56:53.383  INFO 21676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-03 18:56:53.420  INFO 21676 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-03 18:56:54.256  INFO 21676 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 18:56:55.306  INFO 21676 --- [main] com.springweb.ProductRestApiApplication  : Started ProductRestApiApplication in 10.324 seconds (JVM running for 11.108)
+2022-11-03 18:56:55.493  INFO 21676 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-03 18:59:58.819  INFO 21676 --- [RMI TCP Connection(7)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-03 18:59:58.821  INFO 21676 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-03 18:59:58.848  INFO 21676 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-03 18:59:58.855  INFO 21676 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-03 19:01:29.131  INFO 7248 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 7248 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
+2022-11-03 19:01:29.135  INFO 7248 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 19:01:31.200  INFO 7248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 19:01:31.201  INFO 7248 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-03 19:01:31.340  INFO 7248 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-11-03 19:01:31.642  WARN 7248 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2022-11-03 19:01:31.946  INFO 7248 --- [main] com.hazelcast.system.logo                : [192.168.1.16]:5701 [dev] [5.1.4] 
+	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
+	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
+	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
+	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
+	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
+2022-11-03 19:01:31.947  INFO 7248 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
+2022-11-03 19:01:31.947  INFO 7248 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Hazelcast Platform 5.1.4 (20221011 - eba69db) starting at [192.168.1.16]:5701
+2022-11-03 19:01:31.947  INFO 7248 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Cluster name: dev
+2022-11-03 19:01:31.948  INFO 7248 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
+To enable integrity checker do one of the following: 
+  - Change member config using Java API: config.setIntegrityCheckerEnabled(true);
+  - Change XML/YAML configuration property: Set hazelcast.integrity-checker.enabled to true
+  - Add system property: -Dhz.integritychecker.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_INTEGRITYCHECKER_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-11-03 19:01:31.952  INFO 7248 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-11-03 19:01:32.569  INFO 7248 --- [main] com.hazelcast.system.security            : [192.168.1.16]:5701 [dev] [5.1.4] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2022-11-03 19:01:32.690  INFO 7248 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Using Multicast discovery
+2022-11-03 19:01:32.695  WARN 7248 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.16]:5701 [dev] [5.1.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-11-03 19:01:32.938  INFO 7248 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.16]:5701 [dev] [5.1.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-11-03 19:01:32.947  INFO 7248 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTING
+2022-11-03 19:01:35.767  INFO 7248 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.16]:5701 [dev] [5.1.4] 
+
+Members {size:1, ver:1} [
+	Member [192.168.1.16]:5701 - a80aa725-5afa-4f8c-be56-bd268fa5710b this
+]
+
+2022-11-03 19:01:35.786  INFO 7248 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTED
+2022-11-03 19:01:35.945  INFO 7248 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 19:01:36.007  INFO 7248 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-03 19:01:36.237  INFO 7248 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 19:01:36.356  INFO 7248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-03 19:01:36.738  INFO 7248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-03 19:01:36.774  INFO 7248 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-03 19:01:37.594  INFO 7248 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 19:01:38.947  INFO 7248 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is SHUTTING_DOWN
+2022-11-03 19:01:38.952  INFO 7248 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Shutting down multicast service...
+2022-11-03 19:01:38.953  INFO 7248 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Shutting down connection manager...
+2022-11-03 19:01:38.956  INFO 7248 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Shutting down node engine...
+2022-11-03 19:01:40.670  INFO 7248 --- [main] c.hazelcast.instance.impl.NodeExtension  : [192.168.1.16]:5701 [dev] [5.1.4] Destroying node NodeExtension.
+2022-11-03 19:01:40.671  INFO 7248 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Hazelcast Shutdown is completed in 1721 ms.
+2022-11-03 19:01:40.671  INFO 7248 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is SHUTDOWN
+2022-11-03 19:01:40.674  INFO 7248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-03 19:01:40.681  INFO 7248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-03 19:01:40.700  INFO 7248 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-03 19:01:40.783 ERROR 7248 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.23.jar:5.3.23]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.5.jar:2.7.5]
+	at com.springweb.ProductRestApiApplication.main(ProductRestApiApplication.java:16) ~[classes/:na]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113) ~[springfox-core-3.0.0.jar:3.0.0]
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89) ~[springfox-spi-3.0.0.jar:3.0.0]
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473) ~[na:na]
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355) ~[na:na]
+	at java.base/java.util.TimSort.sort(TimSort.java:234) ~[na:na]
+	at java.base/java.util.Arrays.sort(Arrays.java:1307) ~[na:na]
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721) ~[na:na]
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.23.jar:5.3.23]
+	... 14 common frames omitted
+
+2022-11-03 19:02:26.621  INFO 6708 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 6708 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
+2022-11-03 19:02:26.624  INFO 6708 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 19:02:28.523  INFO 6708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 19:02:28.524  INFO 6708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-03 19:02:28.654  INFO 6708 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-11-03 19:02:28.946  WARN 6708 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2022-11-03 19:02:29.227  INFO 6708 --- [main] com.hazelcast.system.logo                : [192.168.1.16]:5701 [dev] [5.1.4] 
+	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
+	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
+	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
+	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
+	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
+2022-11-03 19:02:29.227  INFO 6708 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
+2022-11-03 19:02:29.228  INFO 6708 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Hazelcast Platform 5.1.4 (20221011 - eba69db) starting at [192.168.1.16]:5701
+2022-11-03 19:02:29.228  INFO 6708 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Cluster name: dev
+2022-11-03 19:02:29.228  INFO 6708 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
+To enable integrity checker do one of the following: 
+  - Change member config using Java API: config.setIntegrityCheckerEnabled(true);
+  - Change XML/YAML configuration property: Set hazelcast.integrity-checker.enabled to true
+  - Add system property: -Dhz.integritychecker.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_INTEGRITYCHECKER_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-11-03 19:02:29.231  INFO 6708 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-11-03 19:02:29.825  INFO 6708 --- [main] com.hazelcast.system.security            : [192.168.1.16]:5701 [dev] [5.1.4] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2022-11-03 19:02:29.944  INFO 6708 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Using Multicast discovery
+2022-11-03 19:02:29.949  WARN 6708 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.16]:5701 [dev] [5.1.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-11-03 19:02:30.179  INFO 6708 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.16]:5701 [dev] [5.1.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-11-03 19:02:30.185  INFO 6708 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTING
+2022-11-03 19:02:33.273  INFO 6708 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.16]:5701 [dev] [5.1.4] 
+
+Members {size:1, ver:1} [
+	Member [192.168.1.16]:5701 - 98cb19f9-1770-4b4b-b2ae-9ee75603e61a this
+]
+
+2022-11-03 19:02:33.288  INFO 6708 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTED
+2022-11-03 19:02:33.439  INFO 6708 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 19:02:33.498  INFO 6708 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-03 19:02:33.674  INFO 6708 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 19:02:33.783  INFO 6708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-03 19:02:34.160  INFO 6708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-03 19:02:34.196  INFO 6708 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-03 19:02:34.856  INFO 6708 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 19:02:36.151  INFO 6708 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is SHUTTING_DOWN
+2022-11-03 19:02:36.156  INFO 6708 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Shutting down multicast service...
+2022-11-03 19:02:36.158  INFO 6708 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Shutting down connection manager...
+2022-11-03 19:02:36.161  INFO 6708 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Shutting down node engine...
+2022-11-03 19:02:38.448  INFO 6708 --- [main] c.hazelcast.instance.impl.NodeExtension  : [192.168.1.16]:5701 [dev] [5.1.4] Destroying node NodeExtension.
+2022-11-03 19:02:38.449  INFO 6708 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Hazelcast Shutdown is completed in 2295 ms.
+2022-11-03 19:02:38.450  INFO 6708 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is SHUTDOWN
+2022-11-03 19:02:38.454  INFO 6708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-03 19:02:38.463  INFO 6708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-03 19:02:38.481  INFO 6708 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-03 19:02:38.528 ERROR 6708 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.23.jar:5.3.23]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.5.jar:2.7.5]
+	at com.springweb.ProductRestApiApplication.main(ProductRestApiApplication.java:17) ~[classes/:na]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113) ~[springfox-core-3.0.0.jar:3.0.0]
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89) ~[springfox-spi-3.0.0.jar:3.0.0]
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473) ~[na:na]
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355) ~[na:na]
+	at java.base/java.util.TimSort.sort(TimSort.java:234) ~[na:na]
+	at java.base/java.util.Arrays.sort(Arrays.java:1307) ~[na:na]
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721) ~[na:na]
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.23.jar:5.3.23]
+	... 14 common frames omitted
+
+2022-11-03 19:08:15.862  INFO 9280 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 9280 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
+2022-11-03 19:08:15.866  INFO 9280 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 19:08:17.854  INFO 9280 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 19:08:17.855  INFO 9280 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-03 19:08:18.178  INFO 9280 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-11-03 19:08:18.474  WARN 9280 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2022-11-03 19:08:18.828  INFO 9280 --- [main] com.hazelcast.system.logo                : [192.168.1.16]:5701 [dev] [5.1.4] 
+	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
+	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
+	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
+	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
+	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
+2022-11-03 19:08:18.829  INFO 9280 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
+2022-11-03 19:08:18.830  INFO 9280 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Hazelcast Platform 5.1.4 (20221011 - eba69db) starting at [192.168.1.16]:5701
+2022-11-03 19:08:18.830  INFO 9280 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Cluster name: dev
+2022-11-03 19:08:18.831  INFO 9280 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
+To enable integrity checker do one of the following: 
+  - Change member config using Java API: config.setIntegrityCheckerEnabled(true);
+  - Change XML/YAML configuration property: Set hazelcast.integrity-checker.enabled to true
+  - Add system property: -Dhz.integritychecker.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_INTEGRITYCHECKER_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-11-03 19:08:18.835  INFO 9280 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-11-03 19:08:19.439  INFO 9280 --- [main] com.hazelcast.system.security            : [192.168.1.16]:5701 [dev] [5.1.4] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2022-11-03 19:08:19.552  INFO 9280 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Using Multicast discovery
+2022-11-03 19:08:19.557  WARN 9280 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.16]:5701 [dev] [5.1.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-11-03 19:08:19.803  INFO 9280 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.16]:5701 [dev] [5.1.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-11-03 19:08:19.812  INFO 9280 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTING
+2022-11-03 19:08:22.741  INFO 9280 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.16]:5701 [dev] [5.1.4] 
+
+Members {size:1, ver:1} [
+	Member [192.168.1.16]:5701 - 0fe848c0-8385-49d3-9ba2-81517a047e49 this
+]
+
+2022-11-03 19:08:22.765  INFO 9280 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTED
+2022-11-03 19:08:22.911  INFO 9280 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 19:08:22.970  INFO 9280 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-03 19:08:23.153  INFO 9280 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 19:08:23.265  INFO 9280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-03 19:08:23.689  INFO 9280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-03 19:08:23.723  INFO 9280 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-03 19:08:24.914  INFO 9280 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 19:08:26.279  INFO 9280 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is SHUTTING_DOWN
+2022-11-03 19:08:26.296  INFO 9280 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Shutting down multicast service...
+2022-11-03 19:08:26.297  INFO 9280 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Shutting down connection manager...
+2022-11-03 19:08:26.300  INFO 9280 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Shutting down node engine...
+2022-11-03 19:08:28.811  INFO 9280 --- [main] c.hazelcast.instance.impl.NodeExtension  : [192.168.1.16]:5701 [dev] [5.1.4] Destroying node NodeExtension.
+2022-11-03 19:08:28.812  INFO 9280 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Hazelcast Shutdown is completed in 2518 ms.
+2022-11-03 19:08:28.813  INFO 9280 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is SHUTDOWN
+2022-11-03 19:08:28.818  INFO 9280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-03 19:08:28.827  INFO 9280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-03 19:08:28.848  INFO 9280 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-03 19:08:28.915 ERROR 9280 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.23.jar:5.3.23]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.5.jar:2.7.5]
+	at com.springweb.ProductRestApiApplication.main(ProductRestApiApplication.java:17) ~[classes/:na]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113) ~[springfox-core-3.0.0.jar:3.0.0]
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89) ~[springfox-spi-3.0.0.jar:3.0.0]
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473) ~[na:na]
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355) ~[na:na]
+	at java.base/java.util.TimSort.sort(TimSort.java:234) ~[na:na]
+	at java.base/java.util.Arrays.sort(Arrays.java:1307) ~[na:na]
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721) ~[na:na]
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.23.jar:5.3.23]
+	... 14 common frames omitted
+
+2022-11-03 19:10:18.954  INFO 10940 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 10940 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
+2022-11-03 19:10:18.957  INFO 10940 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 19:10:21.033  INFO 10940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 19:10:21.034  INFO 10940 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-03 19:10:21.178  INFO 10940 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-11-03 19:10:21.530  WARN 10940 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2022-11-03 19:10:21.905  INFO 10940 --- [main] com.hazelcast.system.logo                : [192.168.1.16]:5701 [dev] [5.1.4] 
+	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
+	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
+	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
+	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
+	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
+2022-11-03 19:10:21.905  INFO 10940 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
+2022-11-03 19:10:21.906  INFO 10940 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Hazelcast Platform 5.1.4 (20221011 - eba69db) starting at [192.168.1.16]:5701
+2022-11-03 19:10:21.906  INFO 10940 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Cluster name: dev
+2022-11-03 19:10:21.906  INFO 10940 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
+To enable integrity checker do one of the following: 
+  - Change member config using Java API: config.setIntegrityCheckerEnabled(true);
+  - Change XML/YAML configuration property: Set hazelcast.integrity-checker.enabled to true
+  - Add system property: -Dhz.integritychecker.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_INTEGRITYCHECKER_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-11-03 19:10:21.909  INFO 10940 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-11-03 19:10:22.554  INFO 10940 --- [main] com.hazelcast.system.security            : [192.168.1.16]:5701 [dev] [5.1.4] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2022-11-03 19:10:22.665  INFO 10940 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Using Multicast discovery
+2022-11-03 19:10:22.670  WARN 10940 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.16]:5701 [dev] [5.1.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-11-03 19:10:22.912  INFO 10940 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.16]:5701 [dev] [5.1.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-11-03 19:10:22.919  INFO 10940 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTING
+2022-11-03 19:10:25.677  INFO 10940 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.16]:5701 [dev] [5.1.4] 
+
+Members {size:1, ver:1} [
+	Member [192.168.1.16]:5701 - ec19d9b9-e12f-4346-991d-865c7e603eaa this
+]
+
+2022-11-03 19:10:25.699  INFO 10940 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTED
+2022-11-03 19:10:25.866  INFO 10940 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 19:10:25.936  INFO 10940 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-03 19:10:26.119  INFO 10940 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 19:10:26.233  INFO 10940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-03 19:10:26.643  INFO 10940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-03 19:10:26.679  INFO 10940 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-03 19:10:27.355  INFO 10940 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 19:10:28.662  INFO 10940 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is SHUTTING_DOWN
+2022-11-03 19:10:28.667  INFO 10940 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Shutting down multicast service...
+2022-11-03 19:10:28.668  INFO 10940 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Shutting down connection manager...
+2022-11-03 19:10:28.671  INFO 10940 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Shutting down node engine...
+2022-11-03 19:10:30.440  INFO 10940 --- [main] c.hazelcast.instance.impl.NodeExtension  : [192.168.1.16]:5701 [dev] [5.1.4] Destroying node NodeExtension.
+2022-11-03 19:10:30.441  INFO 10940 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Hazelcast Shutdown is completed in 1776 ms.
+2022-11-03 19:10:30.442  INFO 10940 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is SHUTDOWN
+2022-11-03 19:10:30.447  INFO 10940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-03 19:10:30.455  INFO 10940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-03 19:10:30.476  INFO 10940 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-03 19:10:30.522 ERROR 10940 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.23.jar:5.3.23]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.5.jar:2.7.5]
+	at com.springweb.ProductRestApiApplication.main(ProductRestApiApplication.java:19) ~[classes/:na]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113) ~[springfox-core-3.0.0.jar:3.0.0]
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89) ~[springfox-spi-3.0.0.jar:3.0.0]
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473) ~[na:na]
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355) ~[na:na]
+	at java.base/java.util.TimSort.sort(TimSort.java:234) ~[na:na]
+	at java.base/java.util.Arrays.sort(Arrays.java:1307) ~[na:na]
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721) ~[na:na]
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.23.jar:5.3.23]
+	... 14 common frames omitted
+
+2022-11-03 19:13:10.839  INFO 14552 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 14552 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
+2022-11-03 19:13:10.843  INFO 14552 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 19:13:12.503  INFO 14552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 19:13:12.503  INFO 14552 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-03 19:13:12.659  INFO 14552 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-11-03 19:13:12.789  WARN 14552 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2022-11-03 19:13:13.192  INFO 14552 --- [main] com.hazelcast.system.logo                : [192.168.1.16]:5701 [dev] [5.1.4] 
+	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
+	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
+	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
+	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
+	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
+2022-11-03 19:13:13.192  INFO 14552 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
+2022-11-03 19:13:13.193  INFO 14552 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Hazelcast Platform 5.1.4 (20221011 - eba69db) starting at [192.168.1.16]:5701
+2022-11-03 19:13:13.193  INFO 14552 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Cluster name: dev
+2022-11-03 19:13:13.194  INFO 14552 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
+To enable integrity checker do one of the following: 
+  - Change member config using Java API: config.setIntegrityCheckerEnabled(true);
+  - Change XML/YAML configuration property: Set hazelcast.integrity-checker.enabled to true
+  - Add system property: -Dhz.integritychecker.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_INTEGRITYCHECKER_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-11-03 19:13:13.198  INFO 14552 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-11-03 19:13:13.886  INFO 14552 --- [main] com.hazelcast.system.security            : [192.168.1.16]:5701 [dev] [5.1.4] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2022-11-03 19:13:14.003  INFO 14552 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Using Multicast discovery
+2022-11-03 19:13:14.009  WARN 14552 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.16]:5701 [dev] [5.1.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-11-03 19:13:14.255  INFO 14552 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.16]:5701 [dev] [5.1.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-11-03 19:13:14.264  INFO 14552 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTING
+2022-11-03 19:13:17.301  INFO 14552 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.16]:5701 [dev] [5.1.4] 
+
+Members {size:1, ver:1} [
+	Member [192.168.1.16]:5701 - ac8f4984-183a-4aa4-9faa-dc900e122f9e this
+]
+
+2022-11-03 19:13:17.319  INFO 14552 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTED
+2022-11-03 19:13:17.525  INFO 14552 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 19:13:17.579  INFO 14552 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-03 19:13:17.784  INFO 14552 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 19:13:17.896  INFO 14552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-03 19:13:18.288  INFO 14552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-03 19:13:18.324  INFO 14552 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-03 19:13:18.985  INFO 14552 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 19:13:19.301  INFO 14552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-03 19:13:19.311  INFO 14552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-03 19:13:19.312  INFO 14552 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is SHUTTING_DOWN
+2022-11-03 19:13:19.317  INFO 14552 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Shutting down multicast service...
+2022-11-03 19:13:19.318  INFO 14552 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Shutting down connection manager...
+2022-11-03 19:13:19.320  INFO 14552 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Shutting down node engine...
+2022-11-03 19:13:22.340  INFO 14552 --- [main] c.hazelcast.instance.impl.NodeExtension  : [192.168.1.16]:5701 [dev] [5.1.4] Destroying node NodeExtension.
+2022-11-03 19:13:22.342  INFO 14552 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Hazelcast Shutdown is completed in 3027 ms.
+2022-11-03 19:13:22.343  INFO 14552 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is SHUTDOWN
+2022-11-03 19:13:22.347  INFO 14552 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-03 19:13:22.397 ERROR 14552 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'customHealthIndicator': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.springweb.healthchecks.CustomHealthIndicator] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@2f333739]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.5.jar:2.7.5]
+	at com.springweb.ProductRestApiApplication.main(ProductRestApiApplication.java:19) ~[classes/:na]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.springweb.healthchecks.CustomHealthIndicator] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@2f333739]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485) ~[spring-core-5.3.23.jar:5.3.23]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 18 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Health
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.23.jar:5.3.23]
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Health
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 24 common frames omitted
+
+2022-11-03 19:14:13.792  INFO 6704 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 6704 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
+2022-11-03 19:14:13.801  INFO 6704 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 19:14:17.286  INFO 6704 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 19:14:17.289  INFO 6704 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-03 19:14:17.617  INFO 6704 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-11-03 19:14:17.864  WARN 6704 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2022-11-03 19:14:18.609  INFO 6704 --- [main] com.hazelcast.system.logo                : [192.168.1.16]:5701 [dev] [5.1.4] 
+	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
+	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
+	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
+	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
+	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
+2022-11-03 19:14:18.611  INFO 6704 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
+2022-11-03 19:14:18.612  INFO 6704 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Hazelcast Platform 5.1.4 (20221011 - eba69db) starting at [192.168.1.16]:5701
+2022-11-03 19:14:18.613  INFO 6704 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Cluster name: dev
+2022-11-03 19:14:18.614  INFO 6704 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
+To enable integrity checker do one of the following: 
+  - Change member config using Java API: config.setIntegrityCheckerEnabled(true);
+  - Change XML/YAML configuration property: Set hazelcast.integrity-checker.enabled to true
+  - Add system property: -Dhz.integritychecker.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_INTEGRITYCHECKER_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-11-03 19:14:18.620  INFO 6704 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-11-03 19:14:19.824  INFO 6704 --- [main] com.hazelcast.system.security            : [192.168.1.16]:5701 [dev] [5.1.4] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2022-11-03 19:14:20.035  INFO 6704 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Using Multicast discovery
+2022-11-03 19:14:20.048  WARN 6704 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.16]:5701 [dev] [5.1.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-11-03 19:14:20.512  INFO 6704 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.16]:5701 [dev] [5.1.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-11-03 19:14:20.525  INFO 6704 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTING
+2022-11-03 19:14:23.490  INFO 6704 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.16]:5701 [dev] [5.1.4] 
+
+Members {size:1, ver:1} [
+	Member [192.168.1.16]:5701 - 325ba0d8-8440-486b-8319-9a477b2f3644 this
+]
+
+2022-11-03 19:14:23.522  INFO 6704 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTED
+2022-11-03 19:14:23.853  INFO 6704 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 19:14:23.990  INFO 6704 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-03 19:14:24.346  INFO 6704 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 19:14:24.561  INFO 6704 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-03 19:14:25.308  INFO 6704 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-03 19:14:25.389  INFO 6704 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-03 19:14:26.782  INFO 6704 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 19:14:29.425  INFO 6704 --- [main] com.springweb.ProductRestApiApplication  : Started ProductRestApiApplication in 16.696 seconds (JVM running for 18.313)
