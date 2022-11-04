@@ -541,3 +541,56 @@ Members {size:1, ver:1} [
 2022-11-04 09:59:47.732  INFO 3048 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
 2022-11-04 09:59:48.952  INFO 3048 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2022-11-04 09:59:51.446  INFO 3048 --- [main] com.springweb.ProductRestApiApplication  : Started ProductRestApiApplication in 15.833 seconds (JVM running for 17.493)
+2022-11-04 10:00:01.113  INFO 3048 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-04 10:18:31.932  INFO 3048 --- [RMI TCP Connection(22)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 10:18:31.936  INFO 3048 --- [RMI TCP Connection(22)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-04 10:18:31.959  INFO 3048 --- [RMI TCP Connection(22)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-04 10:18:31.974  INFO 3048 --- [RMI TCP Connection(22)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-04 10:18:51.811  INFO 13684 --- [main] com.springweb.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 17.0.4.1 on LAPTOP-9BKR480N with PID 13684 (C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api\target\classes started by TEJO SAI in C:\Users\TEJO SAI\Desktop\eclipse-java-sts\product_rest_api)
+2022-11-04 10:18:51.817  INFO 13684 --- [main] com.springweb.ProductRestApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 10:18:54.893  INFO 13684 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 10:18:54.895  INFO 13684 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 10:18:55.260  INFO 13684 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-11-04 10:18:55.494  WARN 13684 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2022-11-04 10:18:56.130  INFO 13684 --- [main] com.hazelcast.system.logo                : [192.168.1.16]:5701 [dev] [5.1.4] 
+	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
+	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
+	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
+	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
+	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
+2022-11-04 10:18:56.132  INFO 13684 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
+2022-11-04 10:18:56.133  INFO 13684 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Hazelcast Platform 5.1.4 (20221011 - eba69db) starting at [192.168.1.16]:5701
+2022-11-04 10:18:56.134  INFO 13684 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Cluster name: dev
+2022-11-04 10:18:56.134  INFO 13684 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
+To enable integrity checker do one of the following: 
+  - Change member config using Java API: config.setIntegrityCheckerEnabled(true);
+  - Change XML/YAML configuration property: Set hazelcast.integrity-checker.enabled to true
+  - Add system property: -Dhz.integritychecker.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_INTEGRITYCHECKER_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-11-04 10:18:56.143  INFO 13684 --- [main] com.hazelcast.system                     : [192.168.1.16]:5701 [dev] [5.1.4] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-11-04 10:18:57.284  INFO 13684 --- [main] com.hazelcast.system.security            : [192.168.1.16]:5701 [dev] [5.1.4] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2022-11-04 10:18:57.491  INFO 13684 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.16]:5701 [dev] [5.1.4] Using Multicast discovery
+2022-11-04 10:18:57.506  WARN 13684 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.16]:5701 [dev] [5.1.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-11-04 10:18:58.050  INFO 13684 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.16]:5701 [dev] [5.1.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-11-04 10:18:58.063  INFO 13684 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTING
+2022-11-04 10:19:00.832  INFO 13684 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.16]:5701 [dev] [5.1.4] 
+
+Members {size:1, ver:1} [
+	Member [192.168.1.16]:5701 - ea3cc96e-3e2d-4c3a-bfc1-56d859ca3c7f this
+]
+
+2022-11-04 10:19:00.887  INFO 13684 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.16]:5701 [dev] [5.1.4] [192.168.1.16]:5701 is STARTED
+2022-11-04 10:19:01.219  INFO 13684 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-04 10:19:01.323  INFO 13684 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-04 10:19:01.682  INFO 13684 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-04 10:19:01.894  INFO 13684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-04 10:19:02.722  INFO 13684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-04 10:19:02.817  INFO 13684 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-04 10:19:04.140  INFO 13684 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-04 10:19:06.545  INFO 13684 --- [main] com.springweb.ProductRestApiApplication  : Started ProductRestApiApplication in 15.718 seconds (JVM running for 17.347)

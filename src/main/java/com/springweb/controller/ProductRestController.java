@@ -18,6 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.springweb.entities.Product;
 import com.springweb.repos.ProductRepository;
 
+import io.swagger.annotations.ApiOperation;
+
 @RestController
 public class ProductRestController {
 	
@@ -28,6 +30,12 @@ public class ProductRestController {
 
 	// Finding all the products
 //	@GetMapping("/products/")
+	//Updates the info in swagger docs
+	@ApiOperation(value="Reyrieves all products", 
+			notes = "A list of products",
+			response = Product.class,
+			responseContainer = "List",
+			produces = "appication/json")
 	@RequestMapping(value="/products/", method = RequestMethod.GET)
 	public List<Product> getProducts(){
 		return repository.findAll();	
